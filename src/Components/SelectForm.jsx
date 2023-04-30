@@ -17,7 +17,7 @@ export const SelectForm = (name) => {
     console.log(usersArray)
   return (
     <>
-        <h1>Visualizacion de los datos</h1>
+        <h1>Visualizacion de los daos</h1>
         {
             (usersArray.map((user) => {
                 {console.log("este es el console del map",user)}
